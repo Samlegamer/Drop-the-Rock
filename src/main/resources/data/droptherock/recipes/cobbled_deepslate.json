@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "droptherock:deepslate_loose_rock"
+        }
+    },
+    "result": {
+        "item": "quark:cobbled_deepslate",
+        "count": 1
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
+}
