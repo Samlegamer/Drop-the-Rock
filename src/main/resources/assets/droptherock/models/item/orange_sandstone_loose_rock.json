@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "droptherock:items/orange_sandstone_loose_rock"
+    }
+}
