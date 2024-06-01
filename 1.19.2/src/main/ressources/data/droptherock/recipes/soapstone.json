@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "droptherock:soapstone_loose_rock"
+        }
+    },
+    "result": {
+        "item": "byg:soapstone",
+        "count": 1
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "byg"
+    }
+  ]
+}

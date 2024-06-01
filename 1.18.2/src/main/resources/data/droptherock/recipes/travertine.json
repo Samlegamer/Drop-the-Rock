@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "droptherock:travertine_loose_rock"
+        }
+    },
+    "result": {
+        "item": "byg:travertine",
+        "count": 1
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "byg"
+    }
+  ]
+}

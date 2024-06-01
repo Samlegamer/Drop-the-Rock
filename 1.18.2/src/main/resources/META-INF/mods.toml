@@ -1,0 +1,53 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Samlegamer/Drop-the-Rock/issues" #optional
+
+[[mods]]
+modId="droptherock"
+version="1.18.2-1.0"
+displayName="Drop the Rock"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/drop-the-rock-no-tree-punching-compat"
+logoFile="img.png"
+credits=""
+authors="Samlegamer"
+
+description='''
+Compatibility for No Tree Punching this mod allows you to drop rocks instead of cobblestone, like in No Tree Punching 1.12 finally.
+
+- Support Oh The Biomes You'll Go
+- Support Quark
+- Support Biomes O' Plenty
+'''
+
+[[dependencies.droptherock]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.droptherock]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.droptherock]]
+    modId = "byg"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"
+
+[[dependencies.droptherock]]
+    modId = "quark"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"
+
+[[dependencies.droptherock]]
+    modId = "biomesoplenty"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "NONE"
