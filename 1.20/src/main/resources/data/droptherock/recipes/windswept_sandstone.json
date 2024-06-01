@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "droptherock:windswept_sandstone_loose_rock"
+        }
+    },
+    "result": {
+        "item": "byg:windswept_sandstone",
+        "count": 1
+    },
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "byg"
+    }
+  ]
+}

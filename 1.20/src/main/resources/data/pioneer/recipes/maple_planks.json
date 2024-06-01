@@ -1,0 +1,29 @@
+{
+  "__comment__": "This file was automatically created by SamLib",
+  "type": "notreepunching:tool_damaging_shaped",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "S",
+      "W"
+    ],
+    "key": {
+      "S": {
+        "tag": "notreepunching:saws"
+      },
+      "W": {
+        "item": "pioneer:maple_log"
+      }
+    },
+    "result": {
+      "item": "pioneer:maple_planks",
+      "count": 4
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pioneer"
+    }
+  ]
+}
