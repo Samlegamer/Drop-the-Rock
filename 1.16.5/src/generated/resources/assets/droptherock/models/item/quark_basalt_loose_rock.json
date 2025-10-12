@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "droptherock:item/quark_basalt_loose_rock"
+  }
+}

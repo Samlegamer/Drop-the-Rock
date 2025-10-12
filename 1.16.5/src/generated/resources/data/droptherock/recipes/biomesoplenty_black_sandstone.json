@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "rock",
+        "pattern": [
+          "##",
+          "##"
+        ],
+        "key": {
+          "#": {
+            "item": "droptherock:biomesoplenty_black_sandstone_loose_rock"
+          }
+        },
+        "result": {
+          "item": "biomesoplenty:black_sandstone"
+        }
+      }
+    }
+  ]
+}

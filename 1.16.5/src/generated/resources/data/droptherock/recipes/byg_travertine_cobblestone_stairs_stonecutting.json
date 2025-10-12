@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "droptherock:byg_travertine_cobblestone"
+  },
+  "result": "droptherock:byg_travertine_cobblestone_stairs",
+  "count": 1
+}

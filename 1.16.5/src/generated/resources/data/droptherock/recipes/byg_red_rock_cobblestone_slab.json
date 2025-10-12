@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "slab",
+        "pattern": [
+          "###"
+        ],
+        "key": {
+          "#": {
+            "item": "droptherock:byg_red_rock_cobblestone"
+          }
+        },
+        "result": {
+          "item": "droptherock:byg_red_rock_cobblestone_slab",
+          "count": 6
+        }
+      }
+    }
+  ]
+}

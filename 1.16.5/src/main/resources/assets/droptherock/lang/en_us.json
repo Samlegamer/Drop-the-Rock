@@ -1,26 +1,104 @@
 {
-	"block.droptherock.black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
-	"block.droptherock.blue_sandstone_loose_rock" : "Blue Sandstone Loose Rock",
-	"block.droptherock.ether_stone_loose_rock" : "Ether Stone Loose Rock",
-	"block.droptherock.pink_sandstone_loose_rock" : "Pink Sandstone Loose Rock",
-	"block.droptherock.purple_sandstone_loose_rock" : "Purple Sandstone Loose Rock",
-	"block.droptherock.scoria_stone_loose_rock" : "Scoria Stone Loose Rock",
-	"block.droptherock.soapstone_loose_rock" : "Soapstone Loose Rock",
-	"block.droptherock.travertine_loose_rock" : "Travertine Loose Rock",
-	"block.droptherock.purple_stone_loose_rock" : "Purpur Stone Loose Rock",
-	"block.droptherock.red_rock_loose_rock" : "Red Rock Loose Rock",
-	"block.droptherock.rocky_stone_loose_rock" : "Rocky Stone Loose Rock",
-	"block.droptherock.cryptic_stone_loose_rock" : "Cryptic Stone Loose Rock",
-	"block.droptherock.dacite_loose_rock" : "Dacite Loose Rock",
-	"block.droptherock.white_sandstone_loose_rock" : "White Sandstone Loose Rock",
-	
-	"block.droptherock.basalt_loose_rock" : "Voidstone Loose Rock",
-	"block.droptherock.deepslate_loose_rock" : "Deepslate Loose Rock",
-	"block.droptherock.jasper_loose_rock" : "Jasper Loose Rock",
-	"block.droptherock.limestone_loose_rock" : "Limestone Loose Rock",
-	"block.droptherock.marble_loose_rock" : "Marble Loose Rock",
-	"block.droptherock.myalite_loose_rock" : "Myalite Loose Rock",
-	"block.droptherock.slate_loose_rock" : "Slate Loose Rock",
-	
-	"block.droptherock.orange_sandstone_loose_rock" : "Orange Sandstone Loose Rock"	
+  "block.droptherock.byg_black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
+  "block.droptherock.byg_blue_sandstone_loose_rock" : "Blue Sandstone Loose Rock",
+  "block.droptherock.byg_ether_stone_loose_rock" : "Ether Stone Loose Rock",
+  "block.droptherock.byg_pink_sandstone_loose_rock" : "Pink Sandstone Loose Rock",
+  "block.droptherock.byg_purple_sandstone_loose_rock" : "Purple Sandstone Loose Rock",
+  "block.droptherock.byg_scoria_stone_loose_rock" : "Scoria Stone Loose Rock",
+  "block.droptherock.byg_soapstone_loose_rock" : "Soapstone Loose Rock",
+  "block.droptherock.byg_travertine_loose_rock" : "Travertine Loose Rock",
+  "block.droptherock.byg_purpur_stone_loose_rock" : "Purpur Stone Loose Rock",
+  "block.droptherock.byg_red_rock_loose_rock" : "Red Rock Loose Rock",
+  "block.droptherock.byg_rocky_stone_loose_rock" : "Rocky Stone Loose Rock",
+  "block.droptherock.byg_cryptic_stone_loose_rock" : "Cryptic Stone Loose Rock",
+  "block.droptherock.byg_dacite_loose_rock" : "Dacite Loose Rock",
+  "block.droptherock.byg_white_sandstone_loose_rock" : "White Sandstone Loose Rock",
+
+  "block.droptherock.biomesoplenty_white_sandstone_loose_rock" : "White Sandstone Loose Rock",
+  "block.droptherock.biomesoplenty_black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
+  "block.droptherock.biomesoplenty_orange_sandstone_loose_rock" : "Orange Sandstone Loose Rock",
+
+  "block.droptherock.droptherock_example_stone_loose_rock" : "Example Loose Rock",
+  "block.droptherock.example_stone": "Example Stone",
+  "block.droptherock.droptherock_example_cobblestone": "Example Cobblestone",
+  "block.droptherock.droptherock_example_cobblestone_slab": "Example Cobblestone Slab",
+  "block.droptherock.droptherock_example_cobblestone_stairs": "Example Cobblestone Stairs",
+  "block.droptherock.droptherock_example_cobblestone_wall": "Example Cobblestone Wall",
+
+  "block.droptherock.quark_basalt_loose_rock" : "Voidstone Loose Rock",
+  "block.droptherock.quark_deepslate_loose_rock" : "Deepslate Loose Rock",
+  "block.droptherock.quark_jasper_loose_rock" : "Jasper Loose Rock",
+  "block.droptherock.quark_limestone_loose_rock" : "Limestone Loose Rock",
+  "block.droptherock.quark_marble_loose_rock" : "Marble Loose Rock",
+  "block.droptherock.quark_myalite_loose_rock" : "Myalite Loose Rock",
+  "block.droptherock.quark_slate_loose_rock" : "Slate Loose Rock",
+
+  "block.droptherock.quark_basalt_cobblestone": "Voidstone Cobblestone",
+  "block.droptherock.quark_basalt_cobblestone_slab": "Voidstone Cobblestone Slab",
+  "block.droptherock.quark_basalt_cobblestone_stairs": "Voidstone Cobblestone Stairs",
+  "block.droptherock.quark_basalt_cobblestone_wall": "Voidstone Cobblestone Wall",
+
+  "block.droptherock.quark_jasper_cobblestone": "Jasper Cobblestone",
+  "block.droptherock.quark_jasper_cobblestone_slab": "Jasper Cobblestone Slab",
+  "block.droptherock.quark_jasper_cobblestone_stairs": "Jasper Cobblestone Stairs",
+  "block.droptherock.quark_jasper_cobblestone_wall": "Jasper Cobblestone Wall",
+
+  "block.droptherock.quark_limestone_cobblestone": "Limestone Cobblestone",
+  "block.droptherock.quark_limestone_cobblestone_slab": "Limestone Cobblestone Slab",
+  "block.droptherock.quark_limestone_cobblestone_stairs": "Limestone Cobblestone Stairs",
+  "block.droptherock.quark_limestone_cobblestone_wall": "Limestone Cobblestone Wall",
+
+  "block.droptherock.quark_marble_cobblestone": "Marble Cobblestone",
+  "block.droptherock.quark_marble_cobblestone_slab": "Marble Cobblestone Slab",
+  "block.droptherock.quark_marble_cobblestone_stairs": "Marble Cobblestone Stairs",
+  "block.droptherock.quark_marble_cobblestone_wall": "Marble Cobblestone Wall",
+
+  "block.droptherock.quark_slate_cobblestone": "Slate Cobblestone",
+  "block.droptherock.quark_slate_cobblestone_slab": "Slate Cobblestone Slab",
+  "block.droptherock.quark_slate_cobblestone_stairs": "Slate Cobblestone Stairs",
+  "block.droptherock.quark_slate_cobblestone_wall": "Slate Cobblestone Wall",
+
+  "block.droptherock.byg_cryptic_stone_cobblestone": "Cryptic Stone Cobblestone",
+  "block.droptherock.byg_cryptic_stone_cobblestone_slab": "Cryptic Stone Cobblestone Slab",
+  "block.droptherock.byg_cryptic_stone_cobblestone_stairs": "Cryptic Stone Cobblestone Stairs",
+  "block.droptherock.byg_cryptic_stone_cobblestone_wall": "Cryptic Stone Cobblestone Wall",
+
+  "block.droptherock.byg_purpur_stone_cobblestone": "Purpur Stone Cobblestone",
+  "block.droptherock.byg_purpur_stone_cobblestone_slab": "Purpur Stone Cobblestone Slab",
+  "block.droptherock.byg_purpur_stone_cobblestone_stairs": "Purpur Stone Cobblestone Stairs",
+  "block.droptherock.byg_purpur_stone_cobblestone_wall": "Purpur Stone Cobblestone Wall",
+
+  "block.droptherock.byg_red_rock_cobblestone": "Red Rock Cobblestone",
+  "block.droptherock.byg_red_rock_cobblestone_slab": "Red Rock Cobblestone Slab",
+  "block.droptherock.byg_red_rock_cobblestone_stairs": "Red Rock Cobblestone Stairs",
+  "block.droptherock.byg_red_rock_cobblestone_wall": "Red Rock Cobblestone Wall",
+
+  "block.droptherock.byg_rocky_stone_cobblestone": "Rocky Stone Cobblestone",
+  "block.droptherock.byg_rocky_stone_cobblestone_slab": "Rocky Stone Cobblestone Slab",
+  "block.droptherock.byg_rocky_stone_cobblestone_stairs": "Rocky Stone Cobblestone Stairs",
+  "block.droptherock.byg_rocky_stone_cobblestone_wall": "Rocky Stone Cobblestone Wall",
+
+  "block.droptherock.byg_soapstone_cobblestone": "Soapstone Cobblestone",
+  "block.droptherock.byg_soapstone_cobblestone_slab": "Soapstone Cobblestone Slab",
+  "block.droptherock.byg_soapstone_cobblestone_stairs": "Soapstone Cobblestone Stairs",
+  "block.droptherock.byg_soapstone_cobblestone_wall": "Soapstone Cobblestone Wall",
+
+  "block.droptherock.byg_travertine_cobblestone": "Travertine Cobblestone",
+  "block.droptherock.byg_travertine_cobblestone_slab": "Travertine Cobblestone Slab",
+  "block.droptherock.byg_travertine_cobblestone_stairs": "Travertine Cobblestone Stairs",
+  "block.droptherock.byg_travertine_cobblestone_wall": "Travertine Cobblestone Wall",
+
+  "item.droptherock.iaf_copper_knife": "Copper Knife",
+  "item.droptherock.iaf_silver_knife": "Silver Knife",
+  "item.droptherock.iaf_dragonbone_knife": "Dragonbone Knife",
+
+  "item.droptherock.iaf_copper_saw": "Copper Saw",
+  "item.droptherock.iaf_silver_saw": "Silver Saw",
+  "item.droptherock.iaf_dragonbone_saw": "Dragonbone Saw",
+
+  "item.droptherock.iaf_copper_mattock": "Copper Mattock",
+  "item.droptherock.iaf_silver_mattock": "Silver Mattock",
+  "item.droptherock.iaf_dragonbone_mattock": "Dragonbone Mattock",
+
+  "enchantment.droptherock.lithofusion": "Lithofusion"
 }

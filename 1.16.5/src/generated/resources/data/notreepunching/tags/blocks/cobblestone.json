@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "droptherock:quark_basalt_cobblestone",
+    "droptherock:quark_jasper_cobblestone",
+    "droptherock:quark_limestone_cobblestone",
+    "droptherock:quark_marble_cobblestone",
+    "droptherock:quark_slate_cobblestone",
+    "droptherock:byg_cryptic_stone_cobblestone",
+    "droptherock:byg_purpur_stone_cobblestone",
+    "droptherock:byg_red_rock_cobblestone",
+    "droptherock:byg_rocky_stone_cobblestone",
+    "droptherock:byg_soapstone_cobblestone",
+    "droptherock:byg_travertine_cobblestone"
+  ]
+}

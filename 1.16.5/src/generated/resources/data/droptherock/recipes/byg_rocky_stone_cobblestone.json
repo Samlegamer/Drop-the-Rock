@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "rock",
+        "pattern": [
+          "##",
+          "##"
+        ],
+        "key": {
+          "#": {
+            "item": "droptherock:byg_rocky_stone_loose_rock"
+          }
+        },
+        "result": {
+          "item": "droptherock:byg_rocky_stone_cobblestone"
+        }
+      }
+    }
+  ]
+}

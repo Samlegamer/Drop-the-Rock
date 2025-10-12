@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "droptherock:iaf_copper_mattock",
+    "droptherock:iaf_silver_mattock",
+    "droptherock:iaf_dragonbone_mattock"
+  ]
+}

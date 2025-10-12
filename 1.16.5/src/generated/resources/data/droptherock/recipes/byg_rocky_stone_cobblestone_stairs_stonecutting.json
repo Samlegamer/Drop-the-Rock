@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "droptherock:byg_rocky_stone_cobblestone"
+  },
+  "result": "droptherock:byg_rocky_stone_cobblestone_stairs",
+  "count": 1
+}
