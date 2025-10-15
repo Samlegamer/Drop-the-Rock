@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "droptherock:block/byg_red_rock_cobblestone"
+  }
+}

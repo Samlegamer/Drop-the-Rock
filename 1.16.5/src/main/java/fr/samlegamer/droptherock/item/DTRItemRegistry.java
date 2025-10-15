@@ -25,10 +25,6 @@ import java.util.Objects;
 public class DTRItemRegistry {
     public static final DeferredRegister<Item> ITEM = DeferredRegister.create(ForgeRegistries.ITEMS, DropTheRock.MODID);
 
-    public static final Tags.IOptionalNamedTag<Item> DRAGONBONE = ItemTags.createOptional(new ResourceLocation("iceandfire", "bones/dragon"));
-    public static final Tags.IOptionalNamedTag<Item> SILVER = ItemTags.createOptional(new ResourceLocation("iceandfire", "ingots/silver"));
-    public static final Tags.IOptionalNamedTag<Item> COPPER = ItemTags.createOptional(new ResourceLocation("iceandfire", "ingots/copper"));
-
     // Ice and Fire Mats
     public static final MaterialTiers SILVER_TOOL_MATERIAL = new MaterialTiers(2, 460, 11.0F, 1.0F, 18, new LazyValue<>(() ->
     {return Ingredient.of(ForgeRegistries.ITEMS.getValue(new ResourceLocation("iceandfire", "silver_ingot")));}));

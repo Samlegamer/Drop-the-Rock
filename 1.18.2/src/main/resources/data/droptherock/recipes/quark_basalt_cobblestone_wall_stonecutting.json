@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "droptherock:quark_basalt_cobblestone"
+  },
+  "result": "droptherock:quark_basalt_cobblestone_wall",
+  "count": 1
+}

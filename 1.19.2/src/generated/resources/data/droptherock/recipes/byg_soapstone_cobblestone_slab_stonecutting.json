@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "droptherock:byg_soapstone_cobblestone"
+  },
+  "result": "droptherock:byg_soapstone_cobblestone_slab"
+}

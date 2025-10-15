@@ -1,53 +1,54 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="All rights reserved"
-issueTrackerURL="https://github.com/Samlegamer/Drop-the-Rock/issues" #optional
+
+license="${mod_license}"
+issueTrackerURL="https://github.com/Samlegamer/Drop-the-Rock/issues"
 
 [[mods]]
-modId="droptherock"
-version="1.18.2-1.0"
-displayName="Drop the Rock"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/drop-the-rock-no-tree-punching-compat"
-logoFile="img.png"
-credits=""
-authors="Samlegamer"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+wiki="https://github.com/Samlegamer/Drop-the-Rock/wiki"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/drop-the-rock-no-tree-punching-compat" #optional
+logoFile="logo_droptherock.png"
+#credits=""
+authors="${mod_authors}"
+description='''${mod_description}'''
 
-description='''
-Compatibility for No Tree Punching this mod allows you to drop rocks instead of cobblestone, like in No Tree Punching 1.12 finally.
-
-- Support Oh The Biomes You'll Go
-- Support Quark
-- Support Biomes O' Plenty
-'''
-
-[[dependencies.droptherock]]
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
     versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.droptherock]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.droptherock]]
-    modId = "byg"
-    mandatory = false
-    ordering = "AFTER"
-    versionRange = "NONE"
+[[dependencies.${mod_id}]]
+modId = "notreepunching"
+mandatory = true
+ordering = "AFTER"
+versionRange = "NONE"
 
-[[dependencies.droptherock]]
-    modId = "quark"
-    mandatory = false
-    ordering = "AFTER"
-    versionRange = "NONE"
+[[dependencies.${mod_id}]]
+modId = "byg"
+mandatory = false
+ordering = "AFTER"
+versionRange = "NONE"
 
-[[dependencies.droptherock]]
-    modId = "biomesoplenty"
-    mandatory = false
-    ordering = "AFTER"
-    versionRange = "NONE"
+[[dependencies.${mod_id}]]
+modId = "quark"
+mandatory = false
+ordering = "AFTER"
+versionRange = "NONE"
+
+[[dependencies.${mod_id}]]
+modId = "biomesoplenty"
+mandatory = false
+ordering = "AFTER"
+versionRange = "NONE"

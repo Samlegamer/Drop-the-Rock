@@ -1,0 +1,46 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "droptherock:byg_soapstone_cobblestone"
+          ]
+        },
+        "criteria": {
+          "has_loose_rock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "droptherock:byg_soapstone_loose_rock"
+                  ]
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "droptherock:byg_soapstone_cobblestone"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_loose_rock",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}

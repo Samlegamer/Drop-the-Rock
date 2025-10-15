@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "quark",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "rock",
+        "pattern": [
+          "##",
+          "##"
+        ],
+        "key": {
+          "#": {
+            "item": "droptherock:quark_shale_loose_rock"
+          }
+        },
+        "result": {
+          "item": "droptherock:quark_shale_cobblestone"
+        }
+      }
+    }
+  ]
+}

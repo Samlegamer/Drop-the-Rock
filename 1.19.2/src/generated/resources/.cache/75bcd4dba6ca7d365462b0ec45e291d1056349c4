@@ -1,0 +1,6 @@
+// 1.19.2	2025-10-15T22:16:13.5121047	Tags for minecraft:block
+75e2e31b88a75b451427c5da2ff03fcdd5abc96e data/minecraft/tags/blocks/mineable/pickaxe.json
+fdc9e366c23807bede1ef8359b3508799b59776c data/minecraft/tags/blocks/slabs.json
+4865c384c593767d82feb93895d256e9e4d5ea99 data/minecraft/tags/blocks/stairs.json
+6316b270f56c6574a52011a46a1940261a7ce0ea data/minecraft/tags/blocks/walls.json
+47962473e0b6f0adb5c2dafd6b3e648895f75b11 data/notreepunching/tags/blocks/cobblestone.json

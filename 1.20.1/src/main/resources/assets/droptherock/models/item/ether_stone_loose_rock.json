@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "droptherock:item/ether_stone_loose_rock"
-    }
-}

@@ -1,0 +1,46 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "byg:purple_sandstone"
+          ]
+        },
+        "criteria": {
+          "has_loose_rock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "droptherock:byg_purple_sandstone_loose_rock"
+                  ]
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "byg:purple_sandstone"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_loose_rock",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}

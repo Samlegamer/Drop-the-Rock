@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "side": "droptherock:block/droptherock_example_cobblestone",
+    "bottom": "droptherock:block/droptherock_example_cobblestone",
+    "top": "droptherock:block/droptherock_example_cobblestone"
+  }
+}

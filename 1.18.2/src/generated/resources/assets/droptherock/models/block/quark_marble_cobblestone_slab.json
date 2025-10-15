@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "droptherock:block/quark_marble_cobblestone",
+    "bottom": "droptherock:block/quark_marble_cobblestone",
+    "top": "droptherock:block/quark_marble_cobblestone"
+  }
+}

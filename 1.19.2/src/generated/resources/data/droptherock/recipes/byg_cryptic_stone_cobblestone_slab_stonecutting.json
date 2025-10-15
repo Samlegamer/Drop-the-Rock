@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "droptherock:byg_cryptic_stone_cobblestone"
+  },
+  "result": "droptherock:byg_cryptic_stone_cobblestone_slab"
+}

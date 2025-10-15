@@ -135,7 +135,6 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4024011")
     runtimeOnly fg.deobf("curse.maven:biomes-o-plenty-220318:3913914")
     runtimeOnly fg.deobf("curse.maven:jei-238222:5846870")
-    runtimeOnly fg.deobf("curse.maven:unearthed-406825:3636005")
     //runtimeOnly fg.deobf("curse.maven:ice-and-fire-patcher-1066111:6954753")
     //runtimeOnly fg.deobf("curse.maven:ice-and-fire-dragons-264231:4614457")
     //compileOnly fg.deobf("curse.maven:ice-and-fire-dragons-264231:4614457")

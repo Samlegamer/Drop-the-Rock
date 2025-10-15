@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "droptherock:item/vanilla_deepslate_loose_rock"
+  }
+}

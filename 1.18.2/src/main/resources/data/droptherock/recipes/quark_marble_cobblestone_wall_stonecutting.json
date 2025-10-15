@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "droptherock:quark_marble_cobblestone"
+  },
+  "result": "droptherock:quark_marble_cobblestone_wall",
+  "count": 1
+}

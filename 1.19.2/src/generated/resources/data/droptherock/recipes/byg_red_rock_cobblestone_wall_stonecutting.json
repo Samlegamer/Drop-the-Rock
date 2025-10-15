@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "droptherock:byg_red_rock_cobblestone"
+  },
+  "result": "droptherock:byg_red_rock_cobblestone_wall"
+}

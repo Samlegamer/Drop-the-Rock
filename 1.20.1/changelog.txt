@@ -1,6 +1,14 @@
 1.20.1 Changelog
 47.3
 ====
+ - 47.3.5 Make HangingSignBlockEntity useable with custom BlockEntityTypes. #10038
+ - 47.3.4 Unlock wrapped registries when firing register events. (#10035)
+          Co-authored-by: LexManos <LexManos@gmail.com>
+ - 47.3.3 Choose default JarJar mod file type based on parent JAR (#10023)
+          Co-authored-by: thedarkcolour <30441001+thedarkcolour@users.noreply.github.com>
+ - 47.3.2 Fixed falling block entities not rendering as moving blocks (#10006) (#10018)
+          Co-authored-by: Ven <tudurap.com@gmail.com>
+ - 47.3.1 Fix boat travel distance being incorrect. Closes #9997 #9999
  - 47.3.0 1.20.1 RB 3
           https://forums.minecraftforge.net/topic/139825-forge-473-minecraft-1201/
 

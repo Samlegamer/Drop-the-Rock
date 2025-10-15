@@ -3,6 +3,8 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
 version = mod_version
@@ -68,6 +70,8 @@ minecraft {
             // "REGISTRIES": For firing of registry events.
             // "REGISTRYDUMP": For getting the contents of all registries.
             property 'forge.logging.markers', 'REGISTRIES'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile',"${buildDir}/createSrgToMcp/output.srg"
 
             // Recommended logging level for the console
             // You can set various levels here.
@@ -113,10 +117,20 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven {
-        url "https://cursemaven.com"
-        content {
-            includeGroup "curse.maven"
-        }
+        name = "ParchmentMC"
+        url = "https://maven.parchmentmc.org"
+    }
+    maven {
+        name = "CurseForge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
+    maven {
+        name = "CurseMaven"
+        url = "https://www.cursemaven.com"
+    }
+    maven {
+        name = "JT-Dev"
+        url = "https://maven.jt-dev.tech/releases/"
     }
 }
 
@@ -127,7 +141,28 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-	implementation "curse.maven:no-tree-punching-289043:4599926"
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation fg.deobf("curse.maven:no-tree-punching-289043:4599926")
+
+    runtimeOnly fg.deobf("curse.maven:jei-238222:7037120")
+
+    runtimeOnly fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:5814707")
+    //runtimeOnly fg.deobf("curse.maven:corgilib-693313:6616784")
+    runtimeOnly fg.deobf("curse.maven:geckolib-388172:7025129")
+    //runtimeOnly fg.deobf("curse.maven:oh-the-trees-youll-grow-962544:7096323")
+    //runtimeOnly "corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.0"
+    runtimeOnly fg.deobf("dev.corgitaco:Oh-The-Trees-Youll-Grow-forge:1.20.1-1.3.0")
+    runtimeOnly fg.deobf("dev.corgitaco:Corgilib-Forge:1.20.1-4.0.3.5")
+
+    runtimeOnly fg.deobf("curse.maven:terrablender-563928:6290448")
+
+    runtimeOnly fg.deobf("curse.maven:biomes-o-plenty-220318:6364065")
+    runtimeOnly fg.deobf("curse.maven:glitchcore-955399:5787839")
+
+    runtimeOnly fg.deobf("curse.maven:quark-243121:6427817")
+    runtimeOnly fg.deobf("curse.maven:zeta-968868:6432578")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
@@ -174,7 +209,8 @@ tasks.named('jar', Jar).configure {
                 'Implementation-Title'    : project.name,
                 'Implementation-Version'  : project.jar.archiveVersion,
                 'Implementation-Vendor'   : mod_authors,
-                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                'MixinConfigs'            : "${mod_id}.mixins.json"
         ])
     }
 

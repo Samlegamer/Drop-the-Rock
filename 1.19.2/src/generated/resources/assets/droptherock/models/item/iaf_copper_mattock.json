@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "droptherock:item/iaf_copper_mattock"
+  }
+}

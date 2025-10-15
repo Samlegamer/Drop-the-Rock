@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "droptherock:items/dacite_loose_rock"
-    }
-}

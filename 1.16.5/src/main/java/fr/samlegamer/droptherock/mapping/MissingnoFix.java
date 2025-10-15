@@ -5,12 +5,14 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(modid = DropTheRock.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class MissingnoFix
 {
+    @SubscribeEvent
     public static void missingnoBlock(RegistryEvent.MissingMappings<Block> event)
     {
         convertDataBlock(event, "basalt_loose_rock", "quark_basalt_loose_rock");
@@ -37,6 +39,7 @@ public class MissingnoFix
         convertDataBlock(event, "orange_sandstone_loose_rock", "biomesoplenty_orange_sandstone_loose_rock");
     }
 
+    @SubscribeEvent
     public static void missingnoItem(RegistryEvent.MissingMappings<Item> event)
     {
         convertDataItem(event, "basalt_loose_rock", "quark_basalt_loose_rock");

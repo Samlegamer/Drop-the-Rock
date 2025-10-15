@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+        "type": "minecraft:smelting",
+        "ingredient": {
+          "item": "droptherock:quark_slate_cobblestone"
+        },
+        "result": "quark:slate",
+        "experience": 0.1,
+        "cookingtime": 200
+}

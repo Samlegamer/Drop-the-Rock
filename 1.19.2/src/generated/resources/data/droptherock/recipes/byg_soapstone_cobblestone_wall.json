@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "byg"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "wall",
+        "key": {
+          "#": {
+            "item": "droptherock:byg_soapstone_cobblestone"
+          }
+        },
+        "pattern": [
+          "###",
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "droptherock:byg_soapstone_cobblestone_wall"
+        }
+      }
+    }
+  ]
+}
