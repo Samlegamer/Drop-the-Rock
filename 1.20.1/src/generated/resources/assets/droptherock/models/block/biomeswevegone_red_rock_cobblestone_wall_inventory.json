@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "droptherock:block/biomeswevegone_red_rock_cobblestone"
+  }
+}

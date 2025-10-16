@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "droptherock:block/biomeswevegone_rocky_stone_cobblestone"
+  }
+}

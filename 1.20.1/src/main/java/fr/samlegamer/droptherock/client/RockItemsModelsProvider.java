@@ -3,7 +3,7 @@ package fr.samlegamer.droptherock.client;
 import fr.samlegamer.droptherock.DropTheRock;
 import fr.samlegamer.droptherock.rock.DTRRocks;
 import fr.samlegamer.droptherock.rock.Rock;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -14,8 +14,8 @@ import java.util.List;
 
 public class RockItemsModelsProvider extends ItemModelProvider
 {
-    public RockItemsModelsProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator.getPackOutput(), DropTheRock.MODID, existingFileHelper);
+    public RockItemsModelsProvider(PackOutput packOutput, ExistingFileHelper existingFileHelper) {
+        super(packOutput, DropTheRock.MODID, existingFileHelper);
     }
 
     @Override
@@ -31,7 +31,7 @@ public class RockItemsModelsProvider extends ItemModelProvider
 
         List<Rock> rocks = new ArrayList<>();
         rocks.addAll(DTRRocks.quark());
-        rocks.addAll(DTRRocks.byg());
+        rocks.addAll(DTRRocks.biomeswevegone());
         rocks.addAll(DTRRocks.bop());
         rocks.addAll(DTRRocks.customRocks());
         rocks.add(new Rock("minecraft:deepslate", "droptherock:vanilla_deepslate_loose_rock", "minecraft:cobbled_deepslate"));
@@ -46,7 +46,7 @@ public class RockItemsModelsProvider extends ItemModelProvider
         }
         List<Rock> cobble = new ArrayList<>();
         cobble.addAll(DTRRocks.quark());
-        cobble.addAll(DTRRocks.byg());
+        cobble.addAll(DTRRocks.biomeswevegone());
         cobble.addAll(DTRRocks.bop());
         //cobble.addAll(DTRRocks.customRocks());
 

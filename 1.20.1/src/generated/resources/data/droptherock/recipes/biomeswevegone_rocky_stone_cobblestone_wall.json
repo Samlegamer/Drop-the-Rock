@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomeswevegone"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "wall",
+        "key": {
+          "#": {
+            "item": "droptherock:biomeswevegone_rocky_stone_cobblestone"
+          }
+        },
+        "pattern": [
+          "###",
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "droptherock:biomeswevegone_rocky_stone_cobblestone_wall"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

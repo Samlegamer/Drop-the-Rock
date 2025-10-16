@@ -7,7 +7,7 @@ public class DTRConfig
 {
     public static ForgeConfigSpec.BooleanValue enableVanillaRocks;
     public static ForgeConfigSpec.BooleanValue enableQuarkRocks;
-    public static ForgeConfigSpec.BooleanValue enableBYGRocks;
+    public static ForgeConfigSpec.BooleanValue enableBWGRocks;
     public static ForgeConfigSpec.BooleanValue enableBOPRocks;
 
     public static final DTRConfig INSTANCE;
@@ -30,9 +30,9 @@ public class DTRConfig
                 .comment("Enable loose rocks from Quark stone variants")
                 .define("enableQuarkRocks", true);
 
-        enableBYGRocks = builder
-                .comment("Enable loose rocks from Oh The Biomes You'll Go stone variants")
-                .define("enableBYGRocks", true);
+        enableBWGRocks = builder
+                .comment("Enable loose rocks from Oh The Biomes We've Gone stone variants")
+                .define("enableBWGRocks", true);
 
         enableBOPRocks = builder
                 .comment("Enable loose rocks from Biomes O' Plenty stone variants")

@@ -15,6 +15,7 @@ import fr.samlegamer.droptherock.loot.LootModRegistry;
 import fr.samlegamer.droptherock.mapping.MissingnoFix;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -54,7 +55,6 @@ public class DropTheRock
         DTREnchantmentRegistry.ENCHANTMENT.register(bus);
 		LootModRegistry.SERIALIZERS.register(bus);
 
-		DTRBlockRegistry.createLooseRock();
 		DTRBlockRegistry.createModdedCobblestone();
         DTRItemRegistry.registerCustom();
 
@@ -66,17 +66,18 @@ public class DropTheRock
 		DataGenerator generator = event.getGenerator();
 		ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> completableFuture = event.getLookupProvider();
+        PackOutput packOutput = generator.getPackOutput();
 
 		if (event.includeClient()) {
-			generator.addProvider(true, new RockBlockstatesProvider(generator, existingFileHelper));
-			generator.addProvider(true, new RockItemsModelsProvider(generator, existingFileHelper));
+			generator.addProvider(true, new RockBlockstatesProvider(packOutput, existingFileHelper));
+			generator.addProvider(true, new RockItemsModelsProvider(packOutput, existingFileHelper));
 		}
 
 		if(event.includeServer())
 		{
-			generator.addProvider(true, new RockRecipesProvider(generator));
-            generator.addProvider(true, new RockBlocksTagsProvider(generator, completableFuture, existingFileHelper));
-            generator.addProvider(true, new RockItemsTagsProvider(generator, completableFuture, existingFileHelper));
+            RockBlocksTagsProvider blocksTagsProvider = generator.addProvider(true, new RockBlocksTagsProvider(packOutput, completableFuture, existingFileHelper));
+            generator.addProvider(true, new RockRecipesProvider(packOutput));
+            generator.addProvider(true, new RockItemsTagsProvider(packOutput, completableFuture, blocksTagsProvider.contentsGetter(), existingFileHelper));
         }
 	}
 
@@ -131,10 +132,10 @@ public class DropTheRock
 
     private Collection<ItemStack> searcher(String contains)
     {
-        Collection<RegistryObject<Item>> items_iaf = DTRItemRegistry.ITEM.getEntries();
+        Collection<RegistryObject<Item>> items = DTRItemRegistry.ITEM.getEntries();
         Collection<ItemStack> item_accepted = new HashSet<>();
 
-        for(RegistryObject<Item> item : items_iaf)
+        for(RegistryObject<Item> item : items)
         {
             if(item.getId() != null)
             {
@@ -145,6 +146,8 @@ public class DropTheRock
             }
         }
 
-        return item_accepted;
+        List<ItemStack> sortedList = new ArrayList<>(item_accepted);
+        sortedList.sort(Comparator.comparing(stack -> stack.getItem().getDescriptionId()));
+        return sortedList;
     }
 }

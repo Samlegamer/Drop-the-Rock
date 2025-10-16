@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomeswevegone"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "slab",
+        "key": {
+          "#": {
+            "item": "droptherock:biomeswevegone_rocky_stone_cobblestone"
+          }
+        },
+        "pattern": [
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "droptherock:biomeswevegone_rocky_stone_cobblestone_slab"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

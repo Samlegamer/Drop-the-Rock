@@ -71,7 +71,7 @@ versionRange = "NONE"
 [[dependencies.${mod_id}]]
 modId = "biomeswevegone"
 mandatory = false
-ordering = "AFTER"
+ordering = "BEFORE"
 versionRange = "NONE"
 
 [[dependencies.${mod_id}]]

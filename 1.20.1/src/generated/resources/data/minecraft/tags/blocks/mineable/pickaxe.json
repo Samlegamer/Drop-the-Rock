@@ -1,0 +1,29 @@
+{
+  "values": [
+    "droptherock:quark_jasper_loose_rock",
+    "droptherock:quark_limestone_loose_rock",
+    "droptherock:quark_shale_loose_rock",
+    "droptherock:biomeswevegone_red_rock_loose_rock",
+    "droptherock:biomeswevegone_rocky_stone_loose_rock",
+    "droptherock:quark_jasper_cobblestone",
+    "droptherock:quark_limestone_cobblestone",
+    "droptherock:quark_shale_cobblestone",
+    "droptherock:biomeswevegone_red_rock_cobblestone",
+    "droptherock:biomeswevegone_rocky_stone_cobblestone",
+    "droptherock:quark_jasper_cobblestone_slab",
+    "droptherock:quark_limestone_cobblestone_slab",
+    "droptherock:quark_shale_cobblestone_slab",
+    "droptherock:biomeswevegone_red_rock_cobblestone_slab",
+    "droptherock:biomeswevegone_rocky_stone_cobblestone_slab",
+    "droptherock:quark_jasper_cobblestone_stairs",
+    "droptherock:quark_limestone_cobblestone_stairs",
+    "droptherock:quark_shale_cobblestone_stairs",
+    "droptherock:biomeswevegone_red_rock_cobblestone_stairs",
+    "droptherock:biomeswevegone_rocky_stone_cobblestone_stairs",
+    "droptherock:quark_jasper_cobblestone_wall",
+    "droptherock:quark_limestone_cobblestone_wall",
+    "droptherock:quark_shale_cobblestone_wall",
+    "droptherock:biomeswevegone_red_rock_cobblestone_wall",
+    "droptherock:biomeswevegone_rocky_stone_cobblestone_wall"
+  ]
+}

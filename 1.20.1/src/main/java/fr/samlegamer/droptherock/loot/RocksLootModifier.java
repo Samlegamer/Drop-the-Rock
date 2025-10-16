@@ -60,9 +60,9 @@ public class RocksLootModifier extends LootModifier
             rocks.addAll(DTRRocks.quark());
         }
 
-        if(ModList.get().isLoaded("byg") && DTRConfig.enableBYGRocks.get())
+        if(ModList.get().isLoaded("biomeswevegone") && DTRConfig.enableBWGRocks.get())
         {
-            rocks.addAll(DTRRocks.byg());
+            rocks.addAll(DTRRocks.biomeswevegone());
         }
 
         if(ModList.get().isLoaded("biomesoplenty") && DTRConfig.enableBOPRocks.get())

@@ -1,19 +1,13 @@
 {
-  "block.droptherock.byg_black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
-  "block.droptherock.byg_blue_sandstone_loose_rock" : "Blue Sandstone Loose Rock",
-  "block.droptherock.byg_ether_stone_loose_rock" : "Ether Stone Loose Rock",
-  "block.droptherock.byg_pink_sandstone_loose_rock" : "Pink Sandstone Loose Rock",
-  "block.droptherock.byg_purple_sandstone_loose_rock" : "Purple Sandstone Loose Rock",
-  "block.droptherock.byg_scoria_stone_loose_rock" : "Scoria Stone Loose Rock",
-  "block.droptherock.byg_soapstone_loose_rock" : "Soapstone Loose Rock",
-  "block.droptherock.byg_travertine_loose_rock" : "Travertine Loose Rock",
-  "block.droptherock.byg_purpur_stone_loose_rock" : "Purpur Stone Loose Rock",
-  "block.droptherock.byg_red_rock_loose_rock" : "Red Rock Loose Rock",
-  "block.droptherock.byg_rocky_stone_loose_rock" : "Rocky Stone Loose Rock",
-  "block.droptherock.byg_cryptic_stone_loose_rock" : "Cryptic Stone Loose Rock",
-  "block.droptherock.byg_dacite_loose_rock" : "Dacite Loose Rock",
-  "block.droptherock.byg_white_sandstone_loose_rock" : "White Sandstone Loose Rock",
-  "block.droptherock.byg_windswept_sandstone_loose_rock" : "Windswept Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_blue_sandstone_loose_rock" : "Blue Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_pink_sandstone_loose_rock" : "Pink Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_purple_sandstone_loose_rock" : "Purple Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_red_rock_loose_rock" : "Red Rock Loose Rock",
+  "block.droptherock.biomeswevegone_rocky_stone_loose_rock" : "Rocky Stone Loose Rock",
+  "block.droptherock.biomeswevegone_dacite_loose_rock" : "Dacite Loose Rock",
+  "block.droptherock.biomeswevegone_white_sandstone_loose_rock" : "White Sandstone Loose Rock",
+  "block.droptherock.biomeswevegone_windswept_sandstone_loose_rock" : "Windswept Sandstone Loose Rock",
 
   "block.droptherock.biomesoplenty_white_sandstone_loose_rock" : "White Sandstone Loose Rock",
   "block.droptherock.biomesoplenty_black_sandstone_loose_rock" : "Black Sandstone Loose Rock",
@@ -57,35 +51,15 @@
   "block.droptherock.quark_shale_cobblestone_stairs": "Shale Cobblestone Stairs",
   "block.droptherock.quark_shale_cobblestone_wall": "Shale Cobblestone Wall",
 
-  "block.droptherock.byg_cryptic_stone_cobblestone": "Cryptic Stone Cobblestone",
-  "block.droptherock.byg_cryptic_stone_cobblestone_slab": "Cryptic Stone Cobblestone Slab",
-  "block.droptherock.byg_cryptic_stone_cobblestone_stairs": "Cryptic Stone Cobblestone Stairs",
-  "block.droptherock.byg_cryptic_stone_cobblestone_wall": "Cryptic Stone Cobblestone Wall",
+  "block.droptherock.biomeswevegone_red_rock_cobblestone": "Red Rock Cobblestone",
+  "block.droptherock.biomeswevegone_red_rock_cobblestone_slab": "Red Rock Cobblestone Slab",
+  "block.droptherock.biomeswevegone_red_rock_cobblestone_stairs": "Red Rock Cobblestone Stairs",
+  "block.droptherock.biomeswevegone_red_rock_cobblestone_wall": "Red Rock Cobblestone Wall",
 
-  "block.droptherock.byg_purpur_stone_cobblestone": "Purpur Stone Cobblestone",
-  "block.droptherock.byg_purpur_stone_cobblestone_slab": "Purpur Stone Cobblestone Slab",
-  "block.droptherock.byg_purpur_stone_cobblestone_stairs": "Purpur Stone Cobblestone Stairs",
-  "block.droptherock.byg_purpur_stone_cobblestone_wall": "Purpur Stone Cobblestone Wall",
-
-  "block.droptherock.byg_red_rock_cobblestone": "Red Rock Cobblestone",
-  "block.droptherock.byg_red_rock_cobblestone_slab": "Red Rock Cobblestone Slab",
-  "block.droptherock.byg_red_rock_cobblestone_stairs": "Red Rock Cobblestone Stairs",
-  "block.droptherock.byg_red_rock_cobblestone_wall": "Red Rock Cobblestone Wall",
-
-  "block.droptherock.byg_rocky_stone_cobblestone": "Rocky Stone Cobblestone",
-  "block.droptherock.byg_rocky_stone_cobblestone_slab": "Rocky Stone Cobblestone Slab",
-  "block.droptherock.byg_rocky_stone_cobblestone_stairs": "Rocky Stone Cobblestone Stairs",
-  "block.droptherock.byg_rocky_stone_cobblestone_wall": "Rocky Stone Cobblestone Wall",
-
-  "block.droptherock.byg_soapstone_cobblestone": "Soapstone Cobblestone",
-  "block.droptherock.byg_soapstone_cobblestone_slab": "Soapstone Cobblestone Slab",
-  "block.droptherock.byg_soapstone_cobblestone_stairs": "Soapstone Cobblestone Stairs",
-  "block.droptherock.byg_soapstone_cobblestone_wall": "Soapstone Cobblestone Wall",
-
-  "block.droptherock.byg_travertine_cobblestone": "Travertine Cobblestone",
-  "block.droptherock.byg_travertine_cobblestone_slab": "Travertine Cobblestone Slab",
-  "block.droptherock.byg_travertine_cobblestone_stairs": "Travertine Cobblestone Stairs",
-  "block.droptherock.byg_travertine_cobblestone_wall": "Travertine Cobblestone Wall",
+  "block.droptherock.biomeswevegone_rocky_stone_cobblestone": "Rocky Stone Cobblestone",
+  "block.droptherock.biomeswevegone_rocky_stone_cobblestone_slab": "Rocky Stone Cobblestone Slab",
+  "block.droptherock.biomeswevegone_rocky_stone_cobblestone_stairs": "Rocky Stone Cobblestone Stairs",
+  "block.droptherock.biomeswevegone_rocky_stone_cobblestone_wall": "Rocky Stone Cobblestone Wall",
 
   "item.droptherock.iaf_copper_knife": "Copper Knife",
   "item.droptherock.iaf_silver_knife": "Silver Knife",
@@ -98,6 +72,8 @@
   "item.droptherock.iaf_copper_mattock": "Copper Mattock",
   "item.droptherock.iaf_silver_mattock": "Silver Mattock",
   "item.droptherock.iaf_dragonbone_mattock": "Dragonbone Mattock",
+
+  "notreepunching.items": "No Tree Punching",
 
   "enchantment.droptherock.lithofusion": "Lithofusion"
 }

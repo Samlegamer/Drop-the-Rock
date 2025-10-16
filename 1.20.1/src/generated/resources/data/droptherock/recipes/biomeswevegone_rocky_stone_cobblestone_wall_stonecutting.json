@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "droptherock:biomeswevegone_rocky_stone_cobblestone"
+  },
+  "result": "droptherock:biomeswevegone_rocky_stone_cobblestone_wall"
+}

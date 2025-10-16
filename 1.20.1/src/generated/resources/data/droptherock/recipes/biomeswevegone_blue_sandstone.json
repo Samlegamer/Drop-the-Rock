@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "biomeswevegone"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "rock",
+        "key": {
+          "#": {
+            "item": "droptherock:biomeswevegone_blue_sandstone_loose_rock"
+          }
+        },
+        "pattern": [
+          "##",
+          "##"
+        ],
+        "result": {
+          "item": "biomeswevegone:blue_sandstone"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

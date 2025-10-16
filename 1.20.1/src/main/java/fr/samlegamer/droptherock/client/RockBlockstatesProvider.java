@@ -4,7 +4,7 @@ import fr.samlegamer.droptherock.DropTheRock;
 import fr.samlegamer.droptherock.block.DTRBlockRegistry;
 import fr.samlegamer.droptherock.rock.DTRRocks;
 import fr.samlegamer.droptherock.rock.Rock;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SlabBlock;
@@ -21,8 +21,8 @@ import java.util.Set;
 
 public class RockBlockstatesProvider extends BlockStateProvider
 {
-    public RockBlockstatesProvider(DataGenerator gen, ExistingFileHelper exFileHelper) {
-        super(gen.getPackOutput(), DropTheRock.MODID, exFileHelper);
+    public RockBlockstatesProvider(PackOutput packOutput, ExistingFileHelper exFileHelper) {
+        super(packOutput, DropTheRock.MODID, exFileHelper);
     }
 
     @Override
@@ -60,7 +60,7 @@ public class RockBlockstatesProvider extends BlockStateProvider
 
         List<Rock> cobblestones = new ArrayList<>();
         cobblestones.addAll(DTRRocks.quark());
-        cobblestones.addAll(DTRRocks.byg());
+        cobblestones.addAll(DTRRocks.biomeswevegone());
         cobblestones.addAll(DTRRocks.bop());
         //cobblestones.addAll(DTRRocks.customRocks());
 

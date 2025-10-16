@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "droptherock:item/biomeswevegone_pink_sandstone_loose_rock"
+  }
+}

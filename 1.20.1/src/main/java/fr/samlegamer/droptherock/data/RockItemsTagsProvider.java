@@ -6,11 +6,12 @@ import fr.samlegamer.droptherock.item.DTRItemRegistry;
 import fr.samlegamer.droptherock.rock.DTRRocks;
 import fr.samlegamer.droptherock.rock.Rock;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
@@ -21,15 +22,16 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class RockItemsTagsProvider extends ItemTagsProvider {
-    public RockItemsTagsProvider(DataGenerator dataGenerator, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(dataGenerator.getPackOutput(), lookupProvider, new RockBlocksTagsProvider(dataGenerator, lookupProvider, existingFileHelper).contentsGetter(), DropTheRock.MODID, existingFileHelper);
+    public RockItemsTagsProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
+        super(packOutput, lookupProvider, blockTags, DropTheRock.MODID, existingFileHelper);
     }
 
     protected void addTags(HolderLookup.@NotNull Provider p_256380_) {
 
+        DropTheRock.LOGGER.info("Adding tags for RockItemsTagsProvider");
         List<Rock> cobble = new ArrayList<>();
         cobble.addAll(DTRRocks.quark());
-        cobble.addAll(DTRRocks.byg());
+        cobble.addAll(DTRRocks.biomeswevegone());
 
         cobble.removeIf(filter -> !filter.cobblestone().contains("droptherock:"));
 
@@ -41,6 +43,9 @@ public class RockItemsTagsProvider extends ItemTagsProvider {
             cobblestones[i] = block;
             i++;
         }
+
+        DropTheRock.LOGGER.info("Vers les cobble");
+
         this.tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath(NoTreePunching.MOD_ID, "cobblestone"))).add(cobblestones);
 
         this.tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath(NoTreePunching.MOD_ID, "knives"))).add(DTRItemRegistry.IAF_COPPER_KNIFE.get(), DTRItemRegistry.IAF_SILVER_KNIFE.get(),
@@ -51,5 +56,8 @@ public class RockItemsTagsProvider extends ItemTagsProvider {
         this.tag(ItemTags.create(ResourceLocation.fromNamespaceAndPath(NoTreePunching.MOD_ID, "saws")))
                 .add(DTRItemRegistry.IAF_COPPER_SAW.get(), DTRItemRegistry.IAF_SILVER_SAW.get(),
                         DTRItemRegistry.IAF_DRAGONBONE_SAW.get());
+
+        DropTheRock.LOGGER.info("finish");
+
     }
 }

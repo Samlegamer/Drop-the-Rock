@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "droptherock:item/biomeswevegone_red_rock_loose_rock"
+  }
+}

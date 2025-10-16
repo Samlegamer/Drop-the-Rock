@@ -1,7 +1,0 @@
-{
-  "__comment__": "This file was automatically created by JsonsAPI",
-  "parent": "notreepunching:block/loose_rock",
-  "textures": {
-    "all": "byg:block/red_rock"
-  }
-}

@@ -20,8 +20,8 @@ import java.util.function.Consumer;
 
 public class RockRecipesProvider extends RecipeProvider
 {
-    public RockRecipesProvider(DataGenerator generatorIn) {
-        super(generatorIn.getPackOutput());
+    public RockRecipesProvider(PackOutput packOutput) {
+        super(packOutput);
     }
 
     @Override
@@ -30,7 +30,7 @@ public class RockRecipesProvider extends RecipeProvider
     {
         List<Rock> rocks = new ArrayList<>();
         //rocks.addAll(DTRRocks.quark());
-        rocks.addAll(DTRRocks.byg());
+        rocks.addAll(DTRRocks.biomeswevegone());
         rocks.addAll(DTRRocks.bop());
 
         for (Rock rock : rocks) {

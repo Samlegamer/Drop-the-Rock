@@ -5,7 +5,7 @@ import fr.samlegamer.droptherock.DropTheRock;
 import fr.samlegamer.droptherock.rock.DTRRocks;
 import fr.samlegamer.droptherock.rock.Rock;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Block;
@@ -21,15 +21,15 @@ import java.util.concurrent.CompletableFuture;
 
 public class RockBlocksTagsProvider extends BlockTagsProvider {
 
-    public RockBlocksTagsProvider(DataGenerator dataGenerator, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(dataGenerator.getPackOutput(), lookupProvider, DropTheRock.MODID, existingFileHelper);
+    public RockBlocksTagsProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+        super(packOutput, lookupProvider, DropTheRock.MODID, existingFileHelper);
     }
 
     protected void addTags(HolderLookup.@NotNull Provider p_256380_) {
 
         List<Rock> cobble = new ArrayList<>();
         cobble.addAll(DTRRocks.quark());
-        cobble.addAll(DTRRocks.byg());
+        cobble.addAll(DTRRocks.biomeswevegone());
         cobble.addAll(DTRRocks.bop());
 
         cobble.removeIf(filter -> !filter.cobblestone().contains("droptherock:"));
